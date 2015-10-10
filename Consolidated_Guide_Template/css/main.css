@@ -1,0 +1,218 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 0.15em solid #333;
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 0.15em solid #333;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+ul.citations {
+  margin-left: 0.25em;
+  padding-left: 0.25em;
+}
+
+ul.citations li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+
+ul.citations li strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FF9933;
+  background-color: #003399;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #99CCCC;
+}
+
+.button-nav-main {
+  display: inline-block;
+  padding: 0.0em 0.0em;
+  color: #99CCCC;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav-main:hover, .button-nav-main:focus {
+  color: #FF9933;
+
+}
+a:link {
+  color:#99CCCC;
+  TEXT-DECORATION:none;
+}
+
+a:visited {
+  color:#99CCCC;
+  TEXT-DECORATION:none;
+}
+
+a:active {
+  color:#FF9933;
+  TEXT-DECORATION:none;
+}
+
+a:hover {
+  color:#FF9933;
+  TEXT-DECORATION:none;
+}
+
+.submit-reset {
+  color:#000000;
+}
+
+input[type="text"]
+{
+  background-color:#ffff99;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+h1 {
+  font-size:50px;
+
+}
+
+.h1-this {
+  font-size:50px;
+  color: #000000;
+}
+
+h2 {
+  font-size:40px;
+}
+
+.h2-this{
+  font-size:40px;
+  color: #000000;
+}
+
+h3 {
+  font-size:30px;
+  
+}
+
+.h3-this{
+  font-size:30px;
+  color: #000000;
+}
+
+p {
+  margin: 1em 0;
+  padding: 1em 0;  
+}
+
+.p-this {
+  color: #000000;
+}
+
+ul {
+  list-style-type: square; 
+  color: #000000;
+}
+
+ol {
+  list-style-type: upper-roman;
+  color: #000000;
+}
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+.grid-col-3
+{
+	float:left;
+	text-align: center;
+	width: 100%;
+	color: white;
+	background-color: #003399;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 15px;
+}
+
+.grid-col-3:hover, .grid-col-3:focus {
+  color: #FF9933;
+  background-color: #99CCCC;
+}
+
+
+@media(min-width: 30em)
+{
+	.grid-col-3 {
+		width:10%;
+	}
+}
+
+.product-listing {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
