@@ -1,0 +1,123 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 2rem;
+}
+
+
+nav {
+
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+.nav-section1 {
+  border: 1px solid #000000;
+}
+
+
+.nav-section2 {
+  border: 1px solid #000000;
+}
+
+.button-nav1 {
+  display: inline-block;
+  padding: 0.0em 0.0em;
+  color: #99CCCC;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav1:hover, .button-nav1:focus {
+  background-color: #99CCCC;
+}
+
+
+.button-nav2 {
+  display: inline-block;
+  padding: 0.0em 0.0em;
+  color: #99CCCC;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav2:hover, .button-nav2:focus {
+  color: #FF9933;
+
+}
+
+
+a:link {
+  color:#FF9933;
+  TEXT-DECORATION:none;
+}
+
+a:visited {
+  color:#FF9933;
+  TEXT-DECORATION:none;
+}
+
+a:active {
+  color:#FF9933;
+  TEXT-DECORATION:none;
+}
+
+a:hover {
+  color:#FF9933;
+  TEXT-DECORATION:none;
+}
+
+.submit-reset {
+  color:#000000;
+}
+
+input[type="text"]
+{
+  background-color:#ffff99;
+}
+
+
+h1 {
+  font-size:50px;
+  color: #000000;
+}
+
+h2 {
+  font-size:40px;
+  color: #000000;
+}
+
+h3 {
+  font-size:30px;
+  color: #000000;
+}
+
+p {
+  margin: 1em 0;
+  padding: 1em 0;  
+  color: #000000;
+}
+
+ul {
+  list-style-type: square; 
+  color: #000000;
+}
+
+ol {
+  list-style-type: upper-roman;
+  color: #000000;
+}
+
+article {
+	text-align: left;
+	margin: 2rem 0; 
+	padding: 2rem; 
+	border: 1px solid black;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
