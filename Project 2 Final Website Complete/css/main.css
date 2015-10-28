@@ -150,13 +150,12 @@ footer {
 	padding: 2% 4% 2% 4%;
 	background-color: black;
 	color: white;
-	height: 60px;
+	height: 100px;
 }
 
 footer p {
-	font-size: 24px;
-	float: left;
-	margin-top: 15px;
+	
+	margin-top: 5px;
 }
 
 footer h4 {
@@ -167,10 +166,24 @@ footer h4 {
 }
 
 footer img {
+	clear: left;
 	max-width: 40px;
 	height: auto;
 	float: right;
-	margin-top: 15px;
+	margin-top: 20px;
+}
+
+footer .name {
+	font-size: 15px;
+	margin-top: 0em;
+}
+
+footer .author {
+	display: block;
+	font-size: 8px;
+	margin-top: 1em;
+	float: left;
+	
 }
 
 .front-three img {
