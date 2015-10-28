@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen and (min-width:500px) {
+	
+	nav li {
+		width: 50%;
+	}
+	
+}
+
+@media only screen and (min-width:620px) {
+	
+	.filler-image {
+		width: 50%;
+		float: left;
+	}
+	
+}
+
+@media only screen and (min-width:769px) {
+	
+	nav li {
+		width: 16.666%;
+		float: left;
+	}
+	
+}
+
+@media only screen and (min-width:960px) {
+	
+	.filler-image {
+		width: 31.33%;
+		margin: 1%;
+		float: left;
+	}
+	
+}

@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Style Guide for Project 2</title>
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+<link rel="stylesheet" type="text/css" href="styles/grid.css">
+</head>
+
+<body>
+
+<main>
+
+  <section>
+    <article>
+      <h1>Style Guide for Project 2</h1>
+      <p>On this page:</p>
+      <ul>
+        <li>
+          <a href="#interactive_elements">Interactive Elements</a>
+        </li>
+        <li>
+          <a href="#text_elements">Text Elements</a>
+        </li>
+        <li>
+          <a href="#combined_elements">Combined Elements</a>
+        </li>
+      </ul>
+      <p>Other pages:</p>
+      <ul>
+        <li><a href="style-guide.html">Style Guide</a></li>
+        <li><a href="citations.html">Citations</a></li>
+      </ul>
+    </article>
+  </section>
+  <section id="interactive_elements">
+    <h2>Header Button</h2>
+    <h3>CSS selector:</h3>
+      <p>.button-cart, .button-login</p>
+    <h3>Sample code:</h3>
+      <code>&lt;a class="header-button" href="#"&gt;Login&lt;/a&gt;</code>
+      <code>&lt;a class="header-button" href="#"&gt;Cart&lt;/a&gt;</code>
+    <h3>Rendered element:</h3>
+       <div class="button-login">
+         <h5><a class="button-login" href="#">Login</a></h5>
+       </div>
+       <div class="button-cart">
+         <h5><a class="button-cart" href="#">Cart</a></h5>
+       </div>
+  </section>
+  <section>
+    <h2>Product Listing Link</h2>
+    <h3>CSS selector:</h3>
+	  <p>a</p>
+	<h3>Sample code:</h3>
+      <code>&lt;a href="#"&gt;Title of link&lt;/a&gt;</code>
+    <h3>Rendered element:</h3>
+      <a class="a-link" href = "#">Bauer Vapor X90 Hockey Stick</a>
+  </section>
+  <section>
+    <h2>Submit/Next Button</h2>
+    <h3>CSS selector:</h3>
+	  <p>.next, .submit</p>
+    <h3>Sample code:</h3>
+      <code>&lt;a class="button-nav" href="#"&gt;</code>
+    <h3 class="h3-margin-bottom">Rendered element:</h3>
+	  <a class="next" href="#">Next</a> 
+      <a class="submit" href="#">Submit</a>        
+  </section>
+  <section>
+    <h2>Text Input Field</h2>
+    <h3>CSS selector:</h3>
+	  <p>input type="text"</p>
+    <h3>Sample code:</h3>
+      <code>&lt;input type="text"&gt;</code>
+    <h3>Rendered element:</h3>
+	  <input type="text">
+  </section>
+  <section id="text_elements">
+    <h2>Headings</h2>
+    <h3>CSS selector:</h3>
+	  <p>h1, h2, h3</p>
+    <h3>Sample code:</h3>
+      <code>&lt;h1&gt;Header 1&lt;/h1&gt;</code>
+      <code>&lt;h2&gt;Header 2&lt;/h2&gt;</code>
+      <code>&lt;h3&gt;Header 3&lt;/h3&gt;</code>
+    <h3>Rendered element:</h3>
+      <h1>Header 1</h1>
+	  <h2>Header 2</h2>
+	  <h3>Header 3</h3>
+  </section>
+  <section>
+    <h2>Paragraphs</h2>
+    <h3>CSS selector:</h3>
+	  <p>p</p>
+    <h3>Sample code:</h3>
+      <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code>
+    <h3>Rendered element:</h3>
+	  <p>This is a paragraph</p>
+  </section>
+  <section>
+    <h2>Bulleted Lists</h2>
+	<h3>CSS selector:</h3>
+	  <p>ul</p>
+	<h3>Sample code:</h3>
+      <code>&lt;ul&gt;<br>
+    	  &lt;li&gt;Item 1&lt;/li&gt;<br/>
+    	  &lt;li&gt;Item 2&lt;/li&gt;<br/>
+		  &lt;li&gt;Item 3&lt;/li&gt;<br/>
+		 &lt;/ul&gt;
+	  </code>
+    <h3>Rendered element:</h3>
+      <ul>
+    	<li>Item 1</li>
+    	<li>Item 2</li>
+    	<li>Item 3</li>
+      </ul>
+  </section>
+  <section>
+    <h2>Numbered Lists</h2>
+    <h3>CSS selector:</h3>
+	  <p>ol</p>
+	<h3>Sample code:</h3>
+      <code>&lt;ol&gt;<br>
+    	  &lt;li&gt;Item 1&lt;/li&gt;<br/>
+    	  &lt;li&gt;Item 2&lt;/li&gt;<br/>
+		  &lt;li&gt;Item 3&lt;/li&gt;<br/>
+		 &lt;/ol&gt;
+	  </code>
+      <h3>Rendered element:</h3>
+        <ol>
+    	  <li>Item 1</li>
+    	  <li>Item 2</li>
+    	  <li>Item 3</li>
+    	</ol>
+  </section>
+  <section class="border-fix" id="combined_elements">
+    <h2>Main Navigation</h2>
+    <h3>CSS selector:</h3>
+	<p>nav, ul, li, a</p>
+    <h3>Sample code:</h3>
+      <code>&lt;nav&gt;
+      	<br/>&lt;ul&gt;
+          <br>&lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;
+          &lt;/li&gt;
+          <br>&lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;
+          &lt;/li&gt;
+          <br>&lt;li&gt;&lt;a href="#"&gt;Products&lt;/a&gt;
+          &lt;/li&gt;
+          <br>&lt;li&gt;&lt;a href="#"&gt;Location&lt;/a&gt;
+          &lt;/li&gt;
+          <br>&lt;li&gt;&lt;a href="#"&gt;Support&lt;/a&gt;
+          &lt;/li&gt;
+          <br>&lt;li&gt;&lt;a href="#"&gt;Why Us&lt;/a&gt;
+          &lt;/li&gt;
+        <br/>&lt;/ul&gt;
+      <br>&lt;/nav&gt;</code>
+
+    <h3>Rendered element:</h3>
+     <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="why_us.html">Why Us</a></li>
+        </ul>
+      </nav>
+      <div class="filler-image">
+		<h2>Item 1</h2>
+		  <a href="#"><img src="http://placehold.it/300x300"></a>
+	  </div>
+	  <div class="filler-image">
+		<h2>Item 2</h2>
+		  <a href="pants.html"><img src="http://placehold.it/300x300"></a>
+	   </div>
+	  <div class="filler-image">
+		<h2>Item 3</h2>
+		  <a href="#"><img src="http://placehold.it/300x300"></a>
+	  </div>
+  </section>
+  <section class="clear-both">
+    <h2>Product Listing</h2>
+    <h3>CSS selector:</h3>
+	  <p>.product-listing</p>
+    <h3>Sample code:</h3>
+	  <code>
+	  &lt;div class="product-listing"&gt;
+	  <br/>&lt;div class="product"&gt;Product 1&lt;/div&gt;&lt;img src"img/x90stick.jpg "width="200px"&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+	  <br/>&lt;/div&gt;
+	  </code>
+    <h3>Rendered element:</h3>
+	  <div class="product-listing">
+	  <div class="product"><h3>Product 1</h3><br/><img src="images/product-01.jpg" width="300" height="300" alt=""/></div>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+    	<form action="demo_form.asp" method="get">
+    		<label for="form-quantity" style="margin-left:9px;">Quantity: </label>
+    		<input type="number" id="form-quantity" min="1"  max="99">
+        	<p> 
+            	<a class="next" href="#">Add to Cart&nbsp;<br /><br /></a>
+				<a class="next" href="#">Write a Review<br /></a></p>
+		</form>
+	  </div>
+  </section>
+
+</main>
+
+
+</body>
+</html>
